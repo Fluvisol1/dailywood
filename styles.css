@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.subscription-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-table th,
+.subscription-table td {
+  padding: 16px;
+  border: 1px solid #ddd;
+}
+
+.subscription-table th {
+  background-color: #007BFF;
+  color: white;
+}
+
+.subscription-table td {
+  font-size: 16px;
+}
+
+.subscription-table td:first-child {
+  text-align: left;
+  font-weight: bold;
+  background-color: #f9f9f9;
+}
+
+.footnote {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+  text-align: left;
+}
